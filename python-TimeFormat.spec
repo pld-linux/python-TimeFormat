@@ -34,7 +34,7 @@ sprzêtowych.
 %package doc
 Summary:	Documentation for TimeFormat module
 Summary(pl):	Dokumentacja do modu³u TimeFormat
-Group:		Python/Libraries
+Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description doc
