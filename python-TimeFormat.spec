@@ -40,7 +40,7 @@ Requires:	%{name} = %{version}-%{release}
 %description doc
 This module contains documentation files for TimeFormat Python module.
 
-%description doc -l p
+%description doc -l pl
 Modu³ zawieraj±cy dokumentacjê dla modu³u Python TimeFormat.
 
 %prep
