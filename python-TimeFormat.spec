@@ -5,13 +5,13 @@
 Summary:	An alternative to using time.strftime()
 Summary(pl):	Modu³ konkurencyjny dla time.strftime()
 Name:		python-%{module}
-Version:	1.0.0
+Version:	1.1.0
 Release:	1
 License:	BSD-like
 Group:		Libraries/Python
-Source0:	http://www.owlfish.com/software/%{module}/downloads/%{module}-%{version}.tar.gz
-# Source0-md5:	04f42919421c65a6f1c404dd522fabef
-URL:		http://www.owlfish.com/software/%{module}/index.html
+Source0:	http://www.owlfish.com/software/TimeFormat/downloads/%{module}-%{version}.tar.gz
+# Source0-md5:	e228ba722218da492ae541f7571e1412
+URL:		http://www.owlfish.com/software/TimeFormat/index.html
 BuildRequires:	python-devel >= 2.3
 Requires:	python >= 2.3
 BuildArch:	noarch
