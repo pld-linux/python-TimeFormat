@@ -1,6 +1,6 @@
 
 %include	/usr/lib/rpm/macros.python
-%define 	module TimeFormat
+%define 	module	TimeFormat
 
 Summary:	An alternative to using time.strftime()
 Summary(pl):	Modu³ konkurencyjny dla time.strftime()
