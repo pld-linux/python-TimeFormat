@@ -14,6 +14,7 @@ Source0:	http://www.owlfish.com/software/%{module}/downloads/%{module}-%{version
 URL:		http://www.owlfish.com/software/%{module}/index.html
 BuildRequires:	python-devel >= 2.3
 Requires:	python >= 2.3
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
