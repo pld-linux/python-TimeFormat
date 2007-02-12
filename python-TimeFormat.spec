@@ -2,7 +2,7 @@
 %define 	module	TimeFormat
 
 Summary:	An alternative to using time.strftime()
-Summary(pl):	Modu³ konkurencyjny dla time.strftime()
+Summary(pl.UTF-8):   ModuÅ‚ konkurencyjny dla time.strftime()
 Name:		python-%{module}
 Version:	1.1.0
 Release:	1
@@ -22,25 +22,25 @@ provide more flexibility to time.strftime(). The implementation avoids
 using the C library time.strftime() where possible, so ensuring the
 same operation across most platforms.
 
-%description -l pl
-TimeFormat implementuje od nowa funkcje formatuj±ce datê i czas w
-Pythonie, odznaczaj±ce siê wiêksz± elastyczno¶ci± od time.strftime().
-Implementacja stara siê unikn±æ u¿ywania pochodz±cej z biblioteki C
-funkcji time.strftime() tam, gdzie to tylko mo¿liwe, dziêki czemu
-czemu modu³ powinien tak samo dzia³aæ na wiêkszo¶ci platform
-sprzêtowych.
+%description -l pl.UTF-8
+TimeFormat implementuje od nowa funkcje formatujÄ…ce datÄ™ i czas w
+Pythonie, odznaczajÄ…ce siÄ™ wiÄ™kszÄ… elastycznoÅ›ciÄ… od time.strftime().
+Implementacja stara siÄ™ uniknÄ…Ä‡ uÅ¼ywania pochodzÄ…cej z biblioteki C
+funkcji time.strftime() tam, gdzie to tylko moÅ¼liwe, dziÄ™ki czemu
+czemu moduÅ‚ powinien tak samo dziaÅ‚aÄ‡ na wiÄ™kszoÅ›ci platform
+sprzÄ™towych.
 
 %package doc
 Summary:	Documentation for TimeFormat module
-Summary(pl):	Dokumentacja do modu³u TimeFormat
+Summary(pl.UTF-8):   Dokumentacja do moduÅ‚u TimeFormat
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description doc
 This module contains documentation files for TimeFormat Python module.
 
-%description doc -l pl
-Modu³ zawieraj±cy dokumentacjê dla modu³u Pythona TimeFormat.
+%description doc -l pl.UTF-8
+ModuÅ‚ zawierajÄ…cy dokumentacjÄ™ dla moduÅ‚u Pythona TimeFormat.
 
 %prep
 %setup -q -n %{module}-%{version}
