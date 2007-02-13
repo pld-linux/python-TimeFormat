@@ -2,7 +2,7 @@
 %define 	module	TimeFormat
 
 Summary:	An alternative to using time.strftime()
-Summary(pl.UTF-8):   Moduł konkurencyjny dla time.strftime()
+Summary(pl.UTF-8):	Moduł konkurencyjny dla time.strftime()
 Name:		python-%{module}
 Version:	1.1.0
 Release:	1
@@ -32,7 +32,7 @@ sprzętowych.
 
 %package doc
 Summary:	Documentation for TimeFormat module
-Summary(pl.UTF-8):   Dokumentacja do modułu TimeFormat
+Summary(pl.UTF-8):	Dokumentacja do modułu TimeFormat
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
