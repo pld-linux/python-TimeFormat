@@ -5,7 +5,7 @@ Summary:	An alternative to using time.strftime()
 Summary(pl.UTF-8):	Moduł konkurencyjny dla time.strftime()
 Name:		python-%{module}
 Version:	1.1.0
-Release:	1
+Release:	2
 License:	BSD-like
 Group:		Libraries/Python
 Source0:	http://www.owlfish.com/software/TimeFormat/downloads/%{module}-%{version}.tar.gz
