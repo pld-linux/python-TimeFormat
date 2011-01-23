@@ -12,6 +12,8 @@ Source0:	http://www.owlfish.com/software/TimeFormat/downloads/%{module}-%{versio
 # Source0-md5:	e228ba722218da492ae541f7571e1412
 URL:		http://www.owlfish.com/software/TimeFormat/index.html
 BuildRequires:	python-devel >= 1:2.3
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 Requires:	python >= 2.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
