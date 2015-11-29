@@ -11,6 +11,7 @@ Group:		Libraries/Python
 Source0:	http://www.owlfish.com/software/TimeFormat/downloads/%{module}-%{version}.tar.gz
 # Source0-md5:	e228ba722218da492ae541f7571e1412
 URL:		http://www.owlfish.com/software/TimeFormat/index.html
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
